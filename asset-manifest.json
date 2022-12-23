@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React-Learning-MT/tree/master/assignments/assignment-21/static/css/main.135cf861.css",
+    "main.js": "/React-Learning-MT/tree/master/assignments/assignment-21/static/js/main.cd843a5b.js",
+    "static/js/787.4604f101.chunk.js": "/React-Learning-MT/tree/master/assignments/assignment-21/static/js/787.4604f101.chunk.js",
+    "static/media/logo.png": "/React-Learning-MT/tree/master/assignments/assignment-21/static/media/logo.bbf58db7899d201ed786.png",
+    "static/media/laser-show.jpeg": "/React-Learning-MT/tree/master/assignments/assignment-21/static/media/laser-show.228e01a343e7cd3dd243.jpeg",
+    "static/media/header.webp": "/React-Learning-MT/tree/master/assignments/assignment-21/static/media/header.49f2811d2678c05c7ea3.webp",
+    "static/media/logo.svg": "/React-Learning-MT/tree/master/assignments/assignment-21/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React-Learning-MT/tree/master/assignments/assignment-21/index.html",
+    "main.135cf861.css.map": "/React-Learning-MT/tree/master/assignments/assignment-21/static/css/main.135cf861.css.map",
+    "main.cd843a5b.js.map": "/React-Learning-MT/tree/master/assignments/assignment-21/static/js/main.cd843a5b.js.map",
+    "787.4604f101.chunk.js.map": "/React-Learning-MT/tree/master/assignments/assignment-21/static/js/787.4604f101.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.135cf861.css",
+    "static/js/main.cd843a5b.js"
+  ]
+}
