@@ -1,0 +1,15 @@
+.header-component{
+    display: flex;
+    background-color: inherit;
+    height: 4rem;
+}
+
+.logo-text{
+    font-weight: bold;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1rem;
+    text-align: left;
+    width: 30%;
+}

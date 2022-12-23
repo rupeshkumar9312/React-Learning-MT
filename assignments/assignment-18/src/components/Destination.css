@@ -1,0 +1,46 @@
+.destination-all{
+    height: 25px;
+    width: 33%;
+    margin-top: 10px;
+    height: calc(100% - 10px);
+}
+
+.destination-left{
+    margin-right: 10px;
+
+}
+
+
+.destination-right{
+    margin-left: 10px;
+
+}
+
+.destination-center{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.destination-image{
+    height: 50%;
+    width: 100%;
+}
+
+.destination-name{
+    text-align: center;
+    
+    color: rgb(153, 81, 4);
+    background-color: black;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border-color: yellow;
+    line-height: 3vw;
+}
+
+.destination-description{
+    height: 100%;
+    font-size: small;
+    color: grey;
+    text-align: justify;
+    font-weight: bold;
+}
