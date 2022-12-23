@@ -10,6 +10,11 @@
     text-align: justify;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+    height: 80px;
+    word-spacing: .2rem;
+    color: grey;
+    text-align: left;
+    line-height: 1.5rem;
 }
 
 .btn{
@@ -22,8 +27,7 @@
     border-color: white;
     box-shadow: none;
     shape-outside: none;
-    position: absolute;
-    bottom: 0;
+    
 }
 
 .tags{

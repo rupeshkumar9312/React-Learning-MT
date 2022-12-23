@@ -13,28 +13,28 @@ function DetailsComponent() {
             id:1,
             name:'Live Music',
             image: liveMusic,
-            content: 'We are happy to annouce this special show.',
+            content: 'We are happy to annouce this special show. We are happy to annouce this special show.',
             tags: '#hip-hop #live #music'
         },
         {
             id:1,
             name: 'Laser Show',
             image: laserShow,
-            content: 'We are happy to annouce laser show for our audience.',
+            content: 'We are happy to annouce laser show for our audience.We are happy to annouce laser show for our audience.',
             tags: '#hip-hop #dnce #music'
         },
         {
             id:1,
             name : 'DJ Master Class',
             image: dj,
-            content: 'We are happy to annouce this DJ Master Class.',
+            content: 'We are happy to annouce this DJ Master Class. We are happy to annouce this DJ Master Class.',
             tags: '#hip-hop #dj #master-class'
         },
         {
             id:1,
             name : "Night Party",
             image: nightParty,
-            content: 'We are happy to annouce this special show.',
+            content: 'We are happy to annouce this special show. We are happy to annouce this special show.',
             tags: '#party #night #live #music'
         }
     ]
