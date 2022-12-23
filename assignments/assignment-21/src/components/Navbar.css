@@ -1,5 +1,12 @@
 .navbar{
     background-color: black;
     width: 100%;
-    height: 5rem;   
+    height: 5rem;  
+    display: flex;
+
+}
+
+.logo{
+    height: 5rem;
+    justify-self: left;
 }
