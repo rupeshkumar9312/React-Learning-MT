@@ -1,0 +1,12 @@
+.header{
+    background-color: green;
+    height: 20rem;
+    margin-top: 2rem;
+    margin-right: 10.5em;
+    margin-left: 10.5em;
+}
+.image{
+    object-fit: cover;
+    height: 20rem;
+    width: 100%;
+}
