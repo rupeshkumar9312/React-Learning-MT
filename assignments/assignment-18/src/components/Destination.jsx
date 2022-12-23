@@ -7,9 +7,11 @@ function Destination(props) {
         <div className={class_name}>
             <img src={props.image} class='destination-image' />
             <div className='destination-name'>{props.name}</div>
+            
             <p className='destination-description'>
                 {props.description}
             </p>
+            
         </div>
     )
 }

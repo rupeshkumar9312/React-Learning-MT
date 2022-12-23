@@ -12,19 +12,18 @@ function DestinationContainer() {
             id:1,
             image:image_1,
             name:"Rishikesh",
-            description:"Rishikesh, also spelt as Hrishikesh, is a city near Dehradun in Dehradun district of India  Rishikesh, also spelt as Hrishikesh, is a city near Dehradun in Dehradun district of India Rishikesh, also spelt as Hrishikesh, is a city near Dehradun in Dehradun district of India "
-        },
+            description:"Rishikesh, also spelt as Hrishikesh, is a city near Dehradun in Dehradun district of India"        },
         {
             id:2,
             image:image_3,
             name:"Shillong",
-            description:"Rishikesh, also spelt as Hrishikesh, is a city near Dehradun in Dehradun district of India  Rishikesh, also spelt as Hrishikesh, is a city near Dehradun in Dehradun district of India Rishikesh, also spelt as Hrishikesh, is a city near Dehradun in Dehradun district of India "
+            description:"Rishikesh, also spelt as Hrishikesh, is a city near Dehradun in Dehradun district of India" 
         },
         {
             id:3,
             image:image_2,
             name:"Spiti",
-            description:"Rishikesh, also spelt as Hrishikesh, is a city near Dehradun in Dehradun district of India  Rishikesh, also spelt as Hrishikesh, is a city near Dehradun in Dehradun district of India Rishikesh, also spelt as Hrishikesh, is a city near Dehradun in Dehradun district of India "
+            description:"Rishikesh, also spelt as Hrishikesh, is a city near Dehradun in Dehradun district of India"
         }
     ]
     return (

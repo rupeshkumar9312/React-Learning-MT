@@ -28,6 +28,7 @@
 
 .destination-name{
     text-align: center;
+    margin: 50px;
     
     color: rgb(153, 81, 4);
     background-color: black;
@@ -38,9 +39,10 @@
 }
 
 .destination-description{
-    height: 100%;
-    font-size: small;
-    color: grey;
-    text-align: justify;
+    
+    font-size: large;
+    color: gray;
+    text-align: center;
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
