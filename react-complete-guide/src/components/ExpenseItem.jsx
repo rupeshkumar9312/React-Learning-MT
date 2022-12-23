@@ -2,7 +2,13 @@ import React from 'react'
 
 function ExpenseItem() {
   return (
-    <div>ExpenseItem</div>
+    <div>
+        <div>December 23, 2022</div>
+        <div>
+            <h2>Car Insurance</h2>
+            <div>$296.23</div>
+        </div>
+    </div>
   )
 }
 
