@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import ExpenseItem from './components/ExpenseItem';
+import Expenses from './components/Expenses';
+import NewExpense from './components/NewExpense/NewExpense';
 
 function App() {
-  const data = [
+  const expenses = [
     {
       id: 1,
       title: 'Car Insurance',
@@ -11,7 +13,19 @@ function App() {
       amount: 342.45
     },
     {
-      id: 'e4',
+      id: 2,
+      title: 'New Desk (Wooden)',
+      amount: 450,
+      date: new Date(2021, 5, 12)
+    },
+    {
+      id: 3,
+      title: 'Car Insurance',
+      date: new Date(2022, 23, 9),
+      amount: 342.45
+    },
+    {
+      id: 4,
       title: 'New Desk (Wooden)',
       amount: 450,
       date: new Date(2021, 5, 12)
@@ -19,9 +33,8 @@ function App() {
   ]
   return (
     <div className="App">
-      <h2>Let's Get Started</h2>
-      <ExpenseItem title={data[0].title} date={data[0].date} amount={data[0].amount}></ExpenseItem>
-      <ExpenseItem title={data[1].title} date={data[1].date} amount={data[1].amount}></ExpenseItem>
+      <NewExpense />
+      <Expenses items={expenses}></Expenses>
     </div>
   );
 }
