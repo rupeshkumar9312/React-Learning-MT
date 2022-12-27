@@ -9,30 +9,29 @@ import ContactUs from './components/pages/ContactUs';
 import PageNotFound from './components/pages/PageNotFound';
 import Admin from './components/pages/Admin';
 import User from './components/pages/User';
+import Navbar from './components/Navbar';
 
 function App() {
 
   return (
-    <BrowserRouter>
-      <div className='navbar-div'>
-        <Link to={'/'}>Home</Link>
-        <Link to={'/services'}>Services</Link>
-        <Link to={'/about'}>About Us</Link>
-        <Link to={'/contact'}>Contact Us</Link>
-      </div>
 
+    <div>
+      
+      <BrowserRouter>
+      <Navbar></Navbar>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path='/services' element={<Services />} />
+          <Route path='/about' element={<AboutUs />} />
+          <Route path='/contact' element={<ContactUs />} />
+          <Route path='*' element={<PageNotFound />}></Route>
+          <Route path='/admin' element={<Admin />} />
+          <Route path='/user' element={<User />} />
 
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path='/services' element={<Services />} />
-        <Route path='/about' element={<AboutUs />} />
-        <Route path='/contact' element={<ContactUs />} />
-        <Route path='*' element={<PageNotFound />}></Route>
-        <Route path='/admin' element={<Admin />} />
-        <Route path='/user' element={<User />} />
-        
-      </Routes>
-    </BrowserRouter>
+        </Routes>
+      </BrowserRouter>
+    </div>
+
   );
 }
 
