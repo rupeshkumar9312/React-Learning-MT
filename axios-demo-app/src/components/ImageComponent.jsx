@@ -10,7 +10,8 @@ const ImageComponent = (props) => {
     <section className='section product'>
       <img src={image} alt={name} />
       <h5>{name}</h5>
-      
+      <h5>{product.price}</h5>
+         
     </section>
   );
 };
