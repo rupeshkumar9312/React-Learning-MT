@@ -3,6 +3,7 @@ import './App.css';
 import ExpenseItem from './components/ExpenseItem';
 import Expenses from './components/Expenses';
 import NewExpense from './components/NewExpense/NewExpense';
+import { useState } from 'react';
 
 function App() {
   const expenses = [
@@ -31,9 +32,20 @@ function App() {
       date: new Date(2021, 5, 12)
     }
   ]
+
+  const [expense, setExpenses] = useState(expenses)
+  const expenseDataHandler = (enteredData) => {
+    console.log(enteredData)
+    expenses.push(enteredData);
+    console.log("-----------");
+    setExpenses(expenses.push(enteredData))
+    
+    console.log(expense)
+  }
+
   return (
     <div className="App">
-      <NewExpense />
+      <NewExpense onAddExpense={expenseDataHandler}/>
       <Expenses items={expenses}></Expenses>
     </div>
   );

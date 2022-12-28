@@ -2,9 +2,12 @@ import ExpenseItem from './ExpenseItem';
 import './Expenses.css';
 
 function Expenses(props) {
-    console.log(props.items[0].title)
+    console.log("props.items[0].title")
+    const data = props.items;
+    console.log(data)
   return (
     <div className="expenses">
+
       <ExpenseItem
         title={props.items[0].title}
         amount={props.items[0].amount}
