@@ -1,11 +1,13 @@
 import React from 'react'
-import { connect } from 'react-redux'
 import ToDoCard from './ToDoCard';
-function ToDos(props) {
+import {connect} from 'react-redux';
+
+function CompletedToDo(props) {
     const lists = props.todos.todos.data;
+    const completedToDoList = lists.filter((list) => list.status === 'Pending')
     return (
         <div>
-            {lists.map((list,index) => (
+            {completedToDoList.map((list, index) => (
                 <ToDoCard name={list.name} id={list.id} status={list.status}></ToDoCard>
             ))}
         </div>
@@ -15,4 +17,4 @@ function ToDos(props) {
 const getPropsFromState = (state) => ({
     todos: state
 })
-export default connect(getPropsFromState)(ToDos)
+export default connect(getPropsFromState)(CompletedToDo)

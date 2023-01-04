@@ -9,8 +9,6 @@ function AddTodo(props) {
 
             <form onSubmit={event => {
                 event.preventDefault();
-                console.log("Button Clicked")
-                console.log(event.target.name.value)
                 props.dispatch(actionAddTodo(event.target.name.value, event.target.description.value, event.target.status.value));
             }} className='add-todo-form'>
                 <input type="text" name='name' placeholder='name' /><br />
@@ -21,8 +19,8 @@ function AddTodo(props) {
                         <option value="Completed">Completed</option>
                         <option value="Pending" defaultChecked>Pending</option>
                     </select>
-                </div><br/>
-
+                </div><br />
+                
                 <button>Add Todo</button>
             </form>
         </div>

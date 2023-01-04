@@ -24,3 +24,7 @@ h2{
     width: 30%;
     
 }
+
+.todo-card b{
+    margin-left: 20px;
+}
