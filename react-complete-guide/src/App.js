@@ -35,18 +35,26 @@ function App() {
 
   const [expense, setExpenses] = useState(expenses)
   const expenseDataHandler = (enteredData) => {
-    console.log(enteredData)
+    // console.log(enteredData)
     expenses.push(enteredData);
-    console.log("-----------");
-    setExpenses(expenses.push(enteredData))
-    
+    // console.log("-----------");
+    // const expenseData = {
+    //   ...enteredData,
+    //   id:Math.random().toString()
+    // };
+    // props.onAddExpense(expenseDataHandler);
+    // console.log(expense)
+    setExpenses((prevExpenses)=>{
+      return [enteredData,...prevExpenses]
+    });
+    console.log("-----")
     console.log(expense)
   }
 
   return (
     <div className="App">
       <NewExpense onAddExpense={expenseDataHandler}/>
-      <Expenses items={expenses}></Expenses>
+      <Expenses items={expense}></Expenses>
     </div>
   );
 }

@@ -12,6 +12,7 @@ function NewExpense(props) {
     };
     
     props.onAddExpense(expenseData);
+    console.log(expenseData)
   }
   return (
     <div className='new-expense'>
