@@ -1,0 +1,26 @@
+.todo-card{
+    display: flex;
+    /* background-color: aqua; */
+    margin: 10px;
+    height: 3rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    align-items: center;
+    overflow: hidden;
+}
+
+h2{
+    margin: 5px;
+    
+}
+
+.todo-card p{
+    margin-left: 10px;
+    font-size: medium;
+}
+
+.todo-card button{
+    margin-left: auto;
+    height: 50%;
+    width: 30%;
+    
+}

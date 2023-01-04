@@ -1,0 +1,13 @@
+.navbar{
+    background-color: grey;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    color: white;
+    align-items: center;
+}
+
+.navbar-heading{
+    text-align: center;
+    width: inherit;
+}

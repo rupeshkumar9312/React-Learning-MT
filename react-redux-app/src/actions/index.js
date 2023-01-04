@@ -10,5 +10,5 @@ export const addToDoCreater = (text) => ({
 
 export const deleteToDoCreater = (id) => ({
     type: DELETE_TODO,
-    id
+    id  
 })
