@@ -1,0 +1,16 @@
+.card{
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid grey;
+    height: 20%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 1px 1px grey;
+    overflow-y: hidden;
+    
+}
+
+html{
+    background-color: grey;
+}

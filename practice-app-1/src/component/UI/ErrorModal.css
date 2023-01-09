@@ -1,0 +1,43 @@
+* {
+    margin: 0%;
+}
+
+.error-modal {
+    width: 50%;
+    background-color: rgb(224, 212, 231);
+    border-radius: 10px;
+    border: 2px solid grey;
+    height: 20%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 1px 1px grey;
+    overflow-y: hidden;
+    position: fixed;
+    
+    z-index: 10;
+    
+}
+
+header {
+    line-height: 50px;
+    background-color: rgb(39, 2, 73);
+    color: white
+}
+
+p{
+    line-height: 100px;
+    color: red;
+}
+
+footer {
+    justify-content: center;
+    height: 50px;
+    
+}
+
+@media (min-width: 768px) {
+    .modal {
+      left: calc(50% - 20rem);
+      width: 40rem;
+    }
+  }

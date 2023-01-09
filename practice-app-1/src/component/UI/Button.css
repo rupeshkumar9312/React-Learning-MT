@@ -1,0 +1,14 @@
+.btn{
+        
+}
+
+.btn button{
+    height: 30px;
+    width: 20%;
+    margin: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(39, 2, 73);
+    color: white;
+    float: left;
+
+}
