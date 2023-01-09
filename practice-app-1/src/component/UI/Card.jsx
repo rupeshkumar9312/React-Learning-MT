@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import AddUser from '../AddUser'
+import Wrapper from '../Helpers/Wrapper'
 import UsersList from '../UsersList'
 import './Card.css'
 import ErrorModal from './ErrorModal'
@@ -16,15 +17,15 @@ function Card(props) {
     }
 
     return (
-        <div>
- <div className='card'>
+        <Wrapper>
+            <div className='card'>
                 <AddUser onAddUser={addUserHandler}></AddUser>
             </div>
             <div className='card'>
                 <UsersList users={usersList} ></UsersList>
             </div>
 
-        </div>
+        </Wrapper>
     )
 }
 
